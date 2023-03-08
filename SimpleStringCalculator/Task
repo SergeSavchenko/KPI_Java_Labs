@@ -1,0 +1,31 @@
+There is a file with the extension .csv.
+This file stores information in a table. Each value in the row is separated from the other by a delimiter (it can be ' , ' , or ' ; ').
+
+Values containing a delimiter must be enclosed in quotation marks (" ").
+
+For example:
+
+- abc,1234,q2!cvb - contains 3 values (words): "abc", "1234", "q2!cvb" (3, 4, and 6 characters, respectively);
+- "abc,1234",q2!cvb - contains 2 meanings (words): "abc,1234", "q2!cvb" (8 and 6 characters each).
+
+Write a program that takes as parameters:
+- path to the input file;
+- the path to the output file;
+- delimiter character;
+- a character to combine the result with.
+The output file must contain information about the number of characters in each value (word). The lengths of the values (words) in each line must be separated from each other by the specified delimiter character.
+
+For example, for the input file:
+__________________
+abc,1234,q2!cvb  
+"abc,1234", q2!cvb    
+__________________
+the delimiter is a comma (,).
+Let's take the plus sign (+) as the union symbol in the output file.
+The output file should look like this:
+__________________
+3+4+6
+8+6
+_________________
+
+The use of third-party libraries is prohibited.
