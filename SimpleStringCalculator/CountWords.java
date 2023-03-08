@@ -92,5 +92,3 @@ public class CountWords {
         return fArray;
     }
 }
-
-// /Users/anton/Desktop/КПИ/ООП/test2.csv
